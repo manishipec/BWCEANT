@@ -8,8 +8,8 @@
 		
 		
 		<target name="PackageEAR">
-			<exec executable="/opt/tibco/bwce/bwce/2.3/bin/bwdesign" failonerror="true">   
-			<env key="PATH" path="/opt/tibco/bwce/bwce/2.3/bin"/> 
+			<exec executable="C:\tibco\bwce\bwce\2.3\bin\bwdesign.exe" failonerror="true">   
+			<env key="PATH" path="C:\tibco\bwce\bwce\2.3\bin"/> 
 			<arg value="-data"/>
 			<arg value="${ProjectLocation}"/>  
 			<arg value="export"/> 
