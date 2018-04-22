@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ear_generate" default="all">
+    <property name="archiveName" value=""/>
+	<property name="earOutLocation" value=""/>
+	<property name="ProjectLocation" value=""/>
+
+	<target name="all" depends="PackageEAR"/>
+	
+		
+		
+		
+		<target name="PackageEAR">
+			<exec executable="C:/TibcoBW6/bw/6.4/bin/bwdesign.exe" failonerror="true">   
+			<env key="PATH" path="C:/TibcoBW6/bw/6.4/bin/"/> 
+			<arg value="-data"/>
+			<arg value="${ProjectLocation}"/>  
+			<arg value="export"/> 
+			<arg value="-ear"/>			
+			<arg value="${archiveName}"/> 
+			<arg value="${earOutLocation}"/> 	
+			
+			</exec> 
+		</target>
+		
+</project>
+
+
+
+
