@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: HelloWorld Application
 Bundle-SymbolicName: HelloWorld.application
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 1.0.1.qualifier
 Bundle-Vendor: TIBCO Software Inc.
 TIBCO-BWCE-Edition-Target: docker
 TIBCO-BW-Edition: bwcf
