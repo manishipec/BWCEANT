@@ -7,7 +7,6 @@
         <clientFormat>json</clientFormat>
         <clientRequestFormat>json</clientRequestFormat>
       </operation>
-      <parameters xmi:id="_b-V2UHcfEeeXtPKsgmkHLg"/>
     </scaext:binding>
     <scact:bindingAdjunct xmi:id="_b88vMXcfEeeXtPKsgmkHLg" bindingName="RestService"/>
   </sca:service>
